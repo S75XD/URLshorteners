@@ -2,6 +2,7 @@ import sys
 from time import sleep
 import pyshorteners
 from os import system
+import webbrowser
 CopyRight = """
  _   _______ _         _                _                       
 | | | | ___ \ |       | |              | |                      
