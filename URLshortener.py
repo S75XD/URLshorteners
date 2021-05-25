@@ -10,7 +10,7 @@ F14Commander Twitter [3]
 To EXIT [4]
 """)
 while True:
-    Text = int(input(":"))
+    Text = input(":")
     if Text == 1:
         Link = input("URL:")
         s = pyshorteners.Shortener()
