@@ -1,17 +1,7 @@
-##################################
-import pyshorteners
-from os import system
+from config_app import *
 ##################################
 system("clear")
-print("""
- _   _______ _         _                _                       
-| | | | ___ \ |       | |              | |                      
-| | | | |_/ / |    ___| |__   ___  _ __| |_ ___ _ __   ___ _ __ 
-| | | |    /| |   / __| '_ \ / _ \| '__| __/ _ \ '_ \ / _ \ '__|
-| |_| | |\ \| |___\__ \ | | | (_) | |  | ||  __/ | | |  __/ |   
- \___/\_| \_\_____/___/_| |_|\___/|_|   \__\___|_| |_|\___|_|   
-                     Coded by | twitter:@S75XD & @F14Commander                                                                                                         
-""")
+Write_Text_Animation(CopyRight)
 ##################################
 URl = input("Enter You Url:")
 s = pyshorteners.Shortener()
